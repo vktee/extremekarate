@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /* min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  /* color: white; */
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.App-link {
+  /* color: #61dafb; */
+}
