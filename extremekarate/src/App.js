@@ -1,31 +1,32 @@
-import logo1 from './Patch Artwork-1.png';
-import logo2 from './EK Linear-1.png';
+import logo1 from './Patch Artwork WHITE.png';
+import logo2 from './EK Linear WHITE.png';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <h2>New website coming soon!</h2>
+      <h1 className='header'>New website coming soon!</h1>
       <div className='logos'>
         <img
           src={logo1}
           className='logo1'
-          style={{ width: '45vw', height: '35vw' }}
+          style={{ width: '15vw', height: '15vw' }}
           alt='logo'
         />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <img
           src={logo2}
           className='logo2'
-          style={{ width: '50vw', height: '30vw' }}
+          style={{ width: '40vw', height: '20vw' }}
           alt='logo'
         />
       </div>
-      <header className='App-header'>
+      <p className='text'>
         <div>
           For information on classes at our new location, please contact us at{' '}
           <a href='mailto:extremekarate1@gmail.com'>extremekarate1@gmail.com</a>
         </div>
-      </header>
+      </p>
     </div>
   );
 }
